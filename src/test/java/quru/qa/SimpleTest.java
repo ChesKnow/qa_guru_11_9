@@ -1,6 +1,5 @@
 package quru.qa;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -21,5 +20,10 @@ public class SimpleTest {
     @Test
     void assertFailAnotherTest() {
         fail("another fail");
+    }
+
+    @Test
+    void assertFailTest() {
+        fail();
     }
 }
